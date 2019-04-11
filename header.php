@@ -63,7 +63,7 @@
 			<div class="container">
 				<!-- Logo -->
 				<a class="logo" href="index.php">
-					<img src="assets/img/l31.png" alt="Logo" style="/*width: 150px;  height: 66px;*/">
+					<img src="assets/img/l31.PNG" alt="Logo" style="/*width: 150px;  height: 66px;*/">
 				</a>
 				<!-- End Logo -->
 
