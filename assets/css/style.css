@@ -1,0 +1,179 @@
+/*
+ * Template Name: Unify - Responsive Bootstrap Template
+ * Description: Business, Corporate, Portfolio, E-commerce, Blog and One Page Template.
+ * Version: 1.9.2
+ * Author: @htmlstream
+ * Website: http://htmlstream.com
+*/
+
+/*Import Global Compulsory CSS Files*/
+@import url(app.css);
+@import url(blocks.css);
+
+/*Import CSS Plugins*/
+@import url(plugins/style-switcher.css);
+
+* {
+	border-radius: 0;
+}
+
+body {
+ color: #333;
+ font-size: 13px;
+ line-height: 1.6;
+}
+
+body.header-fixed-space {
+  padding-top: 94px;
+}
+body.header-fixed-space-v2 {
+	padding-top: 135px;
+}
+
+@media (max-width: 991px) {
+	body.header-fixed-space,
+	body.header-fixed-space-v2 {
+		padding-top: 0;
+	}
+}
+
+p,
+li,
+li a,
+label {
+ color: #555;
+}
+
+a {
+ color: #72c02c;
+ text-decoration: none;
+}
+
+a,
+a:focus,
+a:hover,
+a:active,
+button,
+button:hover {
+	outline: 0 !important;
+}
+
+a:focus {
+text-decoration: none;
+}
+a:hover {
+ color: #72c02c;
+ text-decoration: underline;
+}
+
+/*Boxed Layout
+------------------------------------*/
+.wrapper {
+	background: #fff;
+}
+
+.boxed-layout {
+  padding: 0;
+  box-shadow: 0 0 5px #ccc;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  background: url(../img/patterns/15.png) repeat;
+}
+
+/*Hiding arrows for select field in IE*/
+select::-ms-expand {
+  display: none;
+}
+
+
+
+/* CODE FAYSAL */
+.contenu-centre
+{
+	background-color: #2A80B9;
+	color: white!important;
+	padding: 100px;
+	text-align: center;
+}
+.contenu-centre h1
+{
+	font-family: "Veneerregular",Impact,"Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	text-transform: uppercase;
+	font-size: 8rem;
+	color: whitesmoke;
+}
+.contenu-centre h2
+{
+  font-family: "Veneerregular",Impact,"Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  text-transform: uppercase;
+  font-size: 5rem;
+  color: whitesmoke;
+}
+.fleche
+{
+	font-size: 0px;
+    line-height: 0%;
+    width: 0px;
+    border-top: 40px solid #2A80B9;
+    border-left: 36px solid transparent;
+    border-right: 36px solid transparent;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+/* Gallery Ligntbox */
+
+
+.figure {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+}
+img, figcaption {
+    transition: all .25s ease;
+}
+img {
+    display: block;
+}
+figcaption {
+   position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 30px 10px 30px 10px;
+    background: #2A80B9;
+    color: #fff;
+    opacity: 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.figure:hover img {
+    transform: scale(1.1);
+}
+.figure:hover figcaption {
+    opacity: 1;
+}
+
+/* SUITE CODE */
+.large
+{
+  padding-left: 50px; padding-right: 50px; background: #040404;
+}
+
+.large h1, .large h2, .large p, .large li
+{
+  color: white;
+}
+
+.large-blank
+{
+  padding-left: 50px; padding-right: 50px; 
+}
+
+
+
+}
+
